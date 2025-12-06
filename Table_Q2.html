@@ -1,0 +1,42 @@
+<!-- Q2 Recreate Form -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="/server">
+        <div>
+            <label for="name">Name: </label>
+            <input type="text" id="name" >
+        </div>
+        <div>
+            Sex: 
+            <input type="radio" name="sex" id="male" value="male" >
+            <label for="male">male</label>
+            <input type="radio" name="sex" id="female" value="female" >
+            <label for="female">female</label>
+        </div>
+        <div>
+            <label for="Country"> Country: </label>
+            <select name ="country" id="Country"> 
+                <option> Select an Option</option>    
+                <option value="India"> India</option>
+                <option value="UK"> UK</option>
+            </select>
+        </div>
+        <div>
+            <label for="msg"> Message: </label> <br>
+            <textarea id="msg" name="feedback"> 
+            </textarea>
+        </div>
+        <div>           
+            <input type="checkbox" name="check" id="agree">
+             <label for="agree"> Subscribe?</label>
+        </div>
+        <button>submit</button>
+    </form>
+</body>
+</html>
